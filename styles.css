@@ -65,7 +65,7 @@ body {
     padding: 10px 20px;
     margin: 10px;
     border-radius: 20px;
-    color: white;
+    color: #3a2a5e; /* texto oscuro lila */
     font-size: 1.1rem;
     cursor: pointer;
     transition: transform 0.3s, background 0.3s;
@@ -343,4 +343,34 @@ button.no {
   color: #6b3fa0;
   border: 2px dashed #b983ff;
 }
+
+.card h1,
+.card h2,
+.card p {
+  color: #3a2a5e !important;
+}
+
+button {
+  background-color: #b983ff;
+  color: #ffffff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+  background-color: #9d6bff;
+  transform: scale(1.08);
+}
+
+/* Botón NO */
+button.no {
+  background-color: #ffffff;
+  color: #6b3fa0;
+  border: 2px solid #b983ff;
+}
+
 
