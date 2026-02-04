@@ -372,5 +372,15 @@ button.no {
   color: #6b3fa0;
   border: 2px solid #b983ff;
 }
+button.yes {
+  background-color: #7c3aed; /* lila fuerte */
+  color: #ffffff;
+  box-shadow: 0 10px 22px rgba(124, 58, 237, 0.45);
+}
+
+button.yes:hover {
+  background-color: #6d28d9;
+  transform: scale(1.12);
+}
 
 
