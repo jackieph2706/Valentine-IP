@@ -398,5 +398,8 @@ button.yes:hover {
     100% {
         box-shadow: 0 0 20px rgba(185, 131, 255, 0.6);
     }
-}
 
+.secret-answer:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
