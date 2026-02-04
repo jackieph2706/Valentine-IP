@@ -316,3 +316,31 @@ h2 {
     transform: scale(1.05);
     background: var(--secondary-color);
 } 
+
+/* ===== BOTONES VISIBLES - LILA ===== */
+
+button {
+  background-color: #ffffff;
+  color: #6b3fa0; /* lila oscuro */
+  border: 2px solid #b983ff;
+  padding: 12px 26px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background-color: #b983ff;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Botón NO (un poquito más suave) */
+button.no {
+  background-color: #f6f1ff;
+  color: #6b3fa0;
+  border: 2px dashed #b983ff;
+}
+
