@@ -386,3 +386,12 @@ button.yes:hover {
   transform: scale(1.12);
 }
 
+@keyframes secret-glow {
+    0% {
+        box-shadow: 0 0 0 rgba(185, 131, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(185, 131, 255, 0.6);
+    }
+}
+
