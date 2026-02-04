@@ -100,8 +100,13 @@ body {
 }
 
 .secret-answer .cute-btn {
-    font-size: 0.8rem;
-    padding: 5px 10px;
+    font-size: 0.95rem;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, #b983ff, #d5bfff);
+    color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 6px 15px rgba(185, 131, 255, 0.5);
+    font-weight: bold;
 }
 
 .secret-answer:hover {
